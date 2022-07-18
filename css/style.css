@@ -104,3 +104,15 @@ a {
 }
 
 /* final hovering of 3d objects */
+.btn:hover .btn_iso {
+  transform: translate(-38px, -10px) scale(1.2);
+}
+.btn:hover .btn_cone {
+  transform: translate(8px, -32px) scale(1.2);
+}
+.btn:hover .btn_torus {
+  transform: translate(50px, -20px) scale(1.1);
+}
+.btn:hover .btn_sphere {
+  transform: translate(7px, 30px) scale(1.3);
+}
