@@ -4,8 +4,8 @@
 /*=============== VARIABLES CSS ===============*/
 :root {
   /*========== Colors ==========*/
-  --first-color: hsl(305, 86%, 85%);
-  --body-color: hsl(303, 68%, 88%);
+  --first-color: hsl(305, 88%, 78%);
+  --body-color: hsl(297, 73%, 90%);
 
   /*========== Font and typography ==========*/
   --body-font: "Montserrat Alternates", sans-serif;
@@ -40,8 +40,8 @@ a {
   height: 40%;
   background: linear-gradient(
     80deg,
-    hsl(207, 87%, 52%) 10%,
-    hsl(304, 88%, 44%) 48%
+    hsl(204, 95%, 56%) 10%,
+    hsl(304, 82%, 44%) 48%
   );
   position: absolute;
   left: 0;
@@ -89,7 +89,7 @@ a {
 }
 
 .btn_sphere {
-  width: 50px;
+  width: 40px;
   transform: translate(-5px, 15px) rotate(40deg);
 }
 /* View shadow gradient */
