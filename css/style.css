@@ -1,0 +1,74 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&display=swap");
+
+/*=============== VARIABLES CSS ===============*/
+:root {
+  /*========== Colors ==========*/
+  --first-color: hsl(217, 75%, 80%);
+  --body-color: hsl(211, 100%, 95%);
+
+  /*========== Font and typography ==========*/
+  --body-font: "Montserrat Alternates", sans-serif;
+  --normal-font-size: 1.25rem;
+}
+
+body {
+  display: grid;
+  height: 100vh;
+  place-items: center;
+  background-color: var(--body-color);
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+}
+a {
+  text-decoration: none;
+}
+
+/*=============== BASE ===============*/
+.btn {
+  position: relative;
+  color: #fff;
+  background-color: var(--first-color);
+  padding: 0.9rem 2.3rem;
+  border-radius: 3em;
+  transition: 0.7s;
+}
+
+.btn::after {
+  content: "";
+  width: 80%;
+  height: 40%;
+  background: linear-gradient(
+    80deg,
+    hsl(217, 80%, 80%) 10%,
+    hsl(217, 85%, 70%) 48%
+  );
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -4px;
+  margin: 0 auto;
+  border-radius: 3rem;
+  filter: blur(12px);
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 0.4s;
+}
+
+.btn_text {
+  position: relative;
+  z-index: 10;
+}
+/*=============== MAGIC BUTTON ===============*/
+.btn img {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+}
+/* Move 3D geometric elements */
+
+/* View shadow gradient */
+
+/* Button scale */
+
+/* View 3D geometric elements */
